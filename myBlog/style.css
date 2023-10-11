@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: cornflowerblue;
+    font-size:40px;
+}
+
+h2{
+/*    color: green*/
+font-family:sans-serif;
+}
+
+/* OR h1,h2{ common css to be applied in both h1 and h2 }*/
+
+.para{
+    color: crimson
+/*    font-family: "Arial", "Verdana";*/
+}
+
+.container{
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-post{
+    background-color: aqua;
+    width: 75%;
+/*    height: 100%;*/
+    float: left;
+    padding: 30px;
+    position: relative;
+}
+
+.date{
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.other-post{
+    background-color: bisque;
+    width: 25%;
+    float: left;
+    
+}
+
+.other{
+    margin-bottom: 20px;
+}
+
+.author-post{
+    background-color: chartreuse;    
+}
+
+.author-post img{
+    border-radius: 50%;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
